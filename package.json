@@ -1,0 +1,18 @@
+{
+  "name": "nodejs-creando-tu-primera-biblioteca",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cli": "node ./src/cli.js ./archivos/",
+    "cli:validate": "node ./src/cli.js ./archivos/texto.md --validate"
+  },
+  "keywords": [],
+  "author": "Gustavo Enriquez Arias",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "chalk": "^5.4.1"
+  },
+  "type": "module"
+}
